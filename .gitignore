@@ -13,3 +13,5 @@ htmlcov
 .court-scraper/
 .env
 .eggs
+*.vscode
+.vscode/
