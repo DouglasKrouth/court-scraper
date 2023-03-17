@@ -1,5 +1,5 @@
-from court_scraper.base.selenium_site import SeleniumSite
 from datetime import date
+from court_scraper.base.selenium_site import SeleniumSite
 from court_scraper.utils import dates_for_range, get_captcha_service_api_key
 
 

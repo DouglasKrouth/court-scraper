@@ -1,3 +1,16 @@
 - Remove test fixture ignore case on tests/test_site.py-tulsa
 - Remove .gitignore for jupyter nb
 - Rewrite README.md
+
+---
+CODE TODO
+---
+Create ind. page files for search by case number, search by case name, search by new filings
+
+PRIORITY : Search by new filings
+- Do we want to maintain a cache of the case number values?
+
+---
+Ideas for enhancements
+---
+Add pages, impl to grab fields like Parties, Attorneys, Register of Actions
