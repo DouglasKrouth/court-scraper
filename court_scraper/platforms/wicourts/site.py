@@ -12,7 +12,6 @@ class SearchConfigurationError(Exception):
 
 
 class Site(SeleniumSite):
-
     current_day = date.today().strftime("%Y-%m-%d")
 
     def __init__(self, place_id, captcha_api_key=None):
@@ -131,3 +130,12 @@ class Site(SeleniumSite):
             except AttributeError:
                 pass
         return results
+
+
+def main():
+    t = Site(captcha_key="rat")
+    t.search_by_date()
+
+
+if __name__ == "__main__":
+    main()

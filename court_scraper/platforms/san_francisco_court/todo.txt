@@ -1,0 +1,3 @@
+- Remove test fixture ignore case on tests/test_site.py-tulsa
+- Remove .gitignore for jupyter nb
+- Rewrite README.md

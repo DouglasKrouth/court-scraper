@@ -17,3 +17,6 @@ htmlcov
 .vscode/
 .venv/
 .venv
+
+# Douglas Krouth for SF Court Scraper
+work.ipynb
